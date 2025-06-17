@@ -1,0 +1,14 @@
+List
+1. add()
+2. get()
+3. add(index, val)
+4. set()
+5. remove()
+6. clear()
+7. isEmpty()
+8. contains()
+9. indexOf()
+10.Collections.sort()
+11.Collections.reverse()
+12.Collections.rotate()
+
