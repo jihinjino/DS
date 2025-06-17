@@ -1,0 +1,78 @@
+
+✅ 10 Easy-Level HashSet-Based Questions in Java
+
+1. Contains Duplicate (LeetCode 217)
+   - Use HashSet to detect if any number appears more than once.
+
+2. Intersection of Two Arrays (LeetCode 349)
+   - Use HashSet to find common elements in two arrays.
+
+3. Happy Number (LeetCode 202)
+   - Use HashSet to detect loops in digit square sums.
+
+4. Missing Number (LeetCode 268)
+   - Use HashSet to store all numbers and check what's missing.
+
+5. Find the Difference (LeetCode 389)
+   - Use set for frequency or difference detection.
+
+6. Unique Email Addresses (LeetCode 929)
+   - Transform and store each email in a HashSet.
+
+7. Jewels and Stones (LeetCode 771)
+   - Store jewels in a HashSet for quick lookup.
+
+8. Check if the Sentence Is Pangram (LeetCode 1832)
+   - Use HashSet to track all unique alphabets.
+
+9. Longest Harmonious Subsequence (LeetCode 594)
+   - Use HashSet to check existence of elements (x+1).
+
+10. First Unique Character in a String (LeetCode 387)
+    - Combine HashSet with HashMap for uniqueness tracking.
+
+
+✅ Common Inbuilt Functions in Java Set (HashSet, LinkedHashSet, TreeSet)
+
+1. add(E e)
+   - Adds the specified element to the set if not already present.
+   - Example: set.add("A");
+
+2. remove(Object o)
+   - Removes the specified element from the set.
+   - Example: set.remove("A");
+
+3. contains(Object o)
+   - Checks if the set contains the specified element.
+   - Example: set.contains("A");
+
+4. size()
+   - Returns the number of elements in the set.
+   - Example: set.size();
+
+5. isEmpty()
+   - Checks if the set is empty.
+   - Example: set.isEmpty();
+
+6. clear()
+   - Removes all elements from the set.
+   - Example: set.clear();
+
+7. iterator()
+   - Returns an iterator to traverse the set.
+   - Example:
+     Iterator<String> it = set.iterator();
+     while(it.hasNext()) {
+         System.out.println(it.next());
+     }
+
+8. toArray()
+   - Converts the set to an array.
+   - Example: Object[] arr = set.toArray();
+
+9. equals(Object o)
+   - Compares the set with another object for equality.
+
+10. retainAll(Collection<?> c)
+    - Retains only the elements that are also in the specified collection.
+    - Example: set1.retainAll(set2);
